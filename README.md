@@ -117,3 +117,28 @@ Follow these steps to train a GPT-2 model using the provided code.
      tokenizer.save_pretrained(model_path)
      ```
 
+
+# README for Main Application
+
+## Overview
+This application is designed to provide functionalities for user authentication, text generation, and model training using a pre-trained GPT-2 model. It includes features for both admin and client users.
+
+## Prerequisites
+- Python 3.x
+- Install required libraries:
+  ```bash
+  pip install streamlit pandas scikit-learn transformers
+  ```
+
+## Running the Application
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+
+2. **Run the Streamlit app**
+   ```bash
+   streamlit run main.py
+   ```
+
