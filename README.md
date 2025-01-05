@@ -1,4 +1,96 @@
 
+# Fake News Generator
+
+## Overview
+
+The Fake News Generator is a web-based application designed to demonstrate the creation of fake news articles. The project provides functionality for text generation, training data input, and evaluation of generated content. This document explains how the project works, showcases the user interface, and guides users on how to use the application.
+
+## Features
+
+### 1. Admin and Client Authentication
+
+- **Admin Login & Registration**: Secure login for administrators to access advanced features.
+- **Client Login & Registration**: Separate access for clients to interact with the generator.
+- **Password Recovery and Reset**: Options for recovering and resetting forgotten passwords.
+
+### 2. Text Generation
+
+Admins can generate text based on prompts. The application produces a sample text, which can be saved in the database for future training or modification.
+
+### 3. Model Training
+
+The application allows admins to upload text files to train the model further. Each training file has a size limit of 200MB and must be in `.txt` format.
+
+### 4. Fake News Recognition Test
+
+Users can take a quiz to identify fake news. The system provides sample news articles, and users must label them as "True" or "False."
+
+## Generated Text Example
+
+### Original Output:
+
+```
+Noua lege a pensiilor, adoptata de Senat [SEP] Senatul a adoptat, marti, o lege care prevede ca pensiile din 2024 sa fie majorate cu 13,8% din PIB, in timp ce alte tari au adoptat aceeasi lege. [SEP] Astfel, in contextul in care majorarea pensiilor este in vigoare, Senatul a adoptat, marti, o lege care prevede ca pensiile din 2024 sa fie majorate cu 13,8% din PIB, in timp ce alte tari au adoptat aceeasi lege.Astfel, in contextul in care majorarea pensiilor din 2024 sa fie majorate cu 13,8% din PIB, in timp cealate, Senatul a adoptat, marti o lege care prevede ca pensi ca pensiile din 2024 sa fie majorarea pensi pensiilor din 2024 sa fie majorate cu 13,8% din PIB este inseamna pensia pensia pensie, insemn pensia pensia pensia din 2022, iar pensia din 20% din PIB a pensi insemnia pensia din 20% din PIB a pensi pensi pensi pensi
+```
+
+### Edited for Clarity by human interfiere: 
+
+"Noua lege a pensiilor, adoptată de Senat, prevede că pensiile din 2024 vor fi majorate cu 13,8% din PIB. Aceasta se aliniază cu legislații similare adoptate în alte țări. În acest context, Senatul a aprobat legea marți, asigurând o ajustare semnificativă a fondurilor pentru pensii."
+
+This example shows how the generated text can be refined to create coherent and plausible content.
+
+## How to Use
+
+1. **Login/Registration**: Access the platform as an Admin or Client.
+2. **Generate Text**: Input a prompt and generate fake news content.
+3. **Train the Model**: Upload `.txt` files to improve the model’s performance.
+4. **Test Recognition**: Participate in the fake news detection quiz.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/RIAdrian/BS_Final_Project_Fake_News_Generator.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd BS_Final_Project_Fake_News_Generator
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+## Screenshots
+
+Below are the screenshots showcasing the application:
+
+### Login Page
+
+![alt text](image.png)
+
+### Text Generation
+
+![alt text](image-1.png)
+
+### Model Training
+
+![alt text](image-2.png)
+
+### Fake News Recognition Test
+
+![alt text](image-3.png)
+
+## Future Improvements
+
+- Enhance the quality of generated text.
+- Add more robust fake news detection mechanisms.
+- Expand the dataset for training.
+
 # Instructions for Training the GPT-2 Model 
 
 Follow these steps to train a GPT-2 model using the provided code.
