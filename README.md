@@ -71,19 +71,23 @@ Below are the screenshots showcasing the application:
 
 ### Login Page
 
-![alt text](image.png)
+![Login Page](https://github.com/RIAdrian/BS_Final_Project_Fake_News_Generator/tree/main/Imagini/login.png)
 
 ### Text Generation
 
-![alt text](image-1.png)
+![Text Generation](https://github.com/RIAdrian/BS_Final_Project_Fake_News_Generator/tree/main/Imagini/Generate.png)
 
 ### Model Training
 
-![alt text](image-2.png)
+![Model Training](https://github.com/RIAdrian/BS_Final_Project_Fake_News_Generator/tree/main/Imagini/learning.png)
 
 ### Fake News Recognition Test
 
-![alt text](image-3.png)
+![Fake News Recognition Test](https://github.com/RIAdrian/BS_Final_Project_Fake_News_Generator/tree/main/Imagini/test.png)
+
+### Fake News Recognition Test Results
+
+![Fake News Recognition Test Results](https://github.com/RIAdrian/BS_Final_Project_Fake_News_Generator/tree/main/Imagini/results_test.png)
 
 ## Future Improvements
 
